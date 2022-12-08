@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ///nav/// */
+.navbar-brand{
+    color: orange;
+    font-size: 38px;
+}
+.navbar-brand:hover{
+    color: orange;
+    
+}
+.navbar-expand-lg {
+    z-index: 999999999;}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+.navbar-nav a{
+    color: gray;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show .nav-link{
+    color: orange;
+}
+.nav-link:hover{
+    color:orange;
+
+}
+.navbar-nav {
+    --bs-nav-link-hover-color:rgb(81, 255, 0);
+    transition: 2s;
+}
+.navbar-toggler-icon {
+    background-color: orange;
+    border-radius: 40%;
+}
+/* ///end nav/// */
+/* ///home//// */
+    .HomeTexr{
+        width: 100% ;
+        height: auto;
+    }
+    .HomeTexr h3 span{
+        color: orange;
+    }
+    .Home{
+        color:white;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        word-wrap:initial;
+    }
+    .Home::after{
+        content: "";
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.658);
+    }
+    /* ///end home//// */
+/* ///sevice//// */
+    .Contact1{
+        width: 100%;
+        height: 20vh;
+        background-color:transparent;
+    }
+    .OurContact{
+        width: 230px;
+        height: 100px;
+        
+    }
+    .OurContact1{
+        width: 100px;
+        height: 70px;
+        border-bottom : 3px solid red;
+       
+    }
+    .Contact1 h1{
+        color: rgba(0, 0, 0, 0.849);
+        font-size: 30px;
+    }
+    .Contact1 h2{
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 80px;
+    }
+
+   .co{
+    width: 100%;
+    height: 180vh;
+    
+   }
+    .col-md-4{
+    padding: 0 8px;
+    height: 80vh;
+    }
+    .co i{
+        position: absolute;
+        font-size: 40px;
+        color: white;
+        opacity: 0;
+        transition: 1.5s;
+
+    }
+    .col-md-4:hover i{
+        opacity: 100;
+        color: orange;
+        }
+    .text{
+        right: 0;
+        left: 100%;
+        top: 0;
+        background-color: rgba(247, 243, 243, 0.247);
+        transition:left 2s;
+    }
+   
+    .col-md-4:hover .text{
+    left: 0;
+    }
+        /* ///end sevice//// */
+    /* ///pirameds//// */
+    .piram {
+        width: 100%;
+        height: 60vh;
+    }
+    .pirambg{
+        width: 100%;
+        height:100%;
+        background-color: rgba(0, 0, 0, 0.411);
+          
+    }
+    .piram .piram1 {
+        width: 100%;
+        height:100%;
+        background-image: url(../img/eg6.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;   
+    }
+    /* ///end pirameds//// */
+        /* ///startalbums2//// */
+    .co1{
+        width: 100%;
+        height: 180vh;
+       }
+       .co1 .col-md-4{
+        height: 70vh;
+        }
+        .text2{
+            bottom: 100%;
+            background-color: rgba(247, 243, 243, 0.247);
+            transition:bottom 2s;
+        }
+        .co1 .col-md-4:hover .text2{
+        bottom: -2%;
+        }
+       
+/* ///end albums2//// */
+/* ///start form/// */
+.form-control{
+    width:50rem;
+    padding-left: 1rem;
+}
+.form{
+    width:60rem;
+    height:30rem ;
+    
+}
+.form .btn{
+width:5rem;
+}
+
+.contact{
+    border-bottom:3px red solid;
+}
+/* ///end form/// */
+/* startscrollbar*/
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(146, 143, 138);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: orange; 
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:orange; 
+  }
+  /* Endscrollbar*/
+  /* start footer*/
+  span{
+    color: orange;
+}
+/* end footer*/
+  @media screen and (max-width:768px) {
+    .co{
+        width: 100%;
+        height: 180vh;
+       }
+        .col-md-4{
+        padding: 0 8px;
+        height: 25vh;
+        }
+        .co i{
+            font-size: 40px;
+        }
+        .col-md-4:hover i{
+            opacity: 100;
+            color: orange;
+            }
+    .co1{
+        width: 100%;
+        height: 180vh;
+       }
+       .co1 .col-md-4{
+        height: 25vh;
+        }
+        .text2{
+            bottom: 100%;
+         
+        }
+        .co1 .col-md-4:hover .text2{
+        bottom: 0;
+        }
+        
+        .Contact1{
+            width: 100%;
+            height: 10vh;
+        }
+        .OurContact{
+            width: 130px;
+            height: 100px;
+            
+        }
+        .OurContact1{
+            width: 50px;
+            height: 50px;
+            font-size: 15px;
+        }
+        .Contact1 h1{
+            font-size: 20px;
+        }
+        .Contact1 h2{
+            font-size: 60px;
+        }
+    
+}
+@media screen and (max-width:975px) {
+    .form{
+        width:30rem;
+        height:30rem ;
+
+    }
+    .form .btn{
+        width:5rem;
+        text-align: center;
+    
+        }
+       
+        .contact{
+            border-bottom:3px red solid;
+        }
+        .form1 .form-control{
+            width: 20rem;
+        }
+        
+}
